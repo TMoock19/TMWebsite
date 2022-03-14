@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background: #ffffff;
+}
+
+body {
+    font-family: Raleway;
+    background: #ffffff;
+    color: #333333;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+p {
+    margin: 20px 0;
+}
+
+/* Header */
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #333333;
+    opacity: 0.8;
+    width: 100%;
+    height: 70px;
+    top: 240px;
+    padding: 0 30px;
+    transition: 0.5s;
+}
+
+.navbar a {
+    padding: 10px 20px;
+    margin: 0 5px;
+}
+
+.navbar a:hover {
+    border-bottom:#ECA043 1.5px solid;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+#navbar ul li a.current {
+    border-bottom:#ECA043 1.5px solid;
+}
+
+/* Main */
+.content {
+    text-align: center;
+    padding: 25px;
+}
+
+.content img {
+    width: 100%;
+    max-width: 800px;
+    padding: 25px;
+    border-radius: 50%;
+}
+
+
+/* Footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+}
+
+.footer a {
+    color: #333333;
+}
+
+.footer a:hover {
+    color: #ECA043;
+}
